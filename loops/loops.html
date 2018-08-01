@@ -17,7 +17,11 @@ function getRandomInt(min, max) {
 var randomInt = getRandomInt(1, 100);
 /* END STARTING CODE */
 
-// your code goes under here
+var guess =prompt("Guess a number from 1 to 100")
+if (guess > randomInt) {document.write("I'm sorry, your guess is wrong!")}
+else if (guess < randomInt) {document.write("I'm sorry, your guess is wrong!")}
+else {document.write("Good job! Your guess is right!")}
+
 
     </script>
 </body>
